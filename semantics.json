@@ -151,7 +151,8 @@
                         "hr",
                         "pre",
                         "code",
-                        "inlineCode"
+                        "inlineCode",
+                        "html"
                     ]
                 },
                 {
