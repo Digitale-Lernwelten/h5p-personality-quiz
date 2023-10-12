@@ -14,9 +14,9 @@ H5P.PersonalityQuiz = (function ($, EventDispatcher) {
     @param {number} id
     @constructor
   */
+ //add inlinee code
+  H5P.editor.wysiwygButtons = ['inlineCode', 'codeSnippet'];
   function PersonalityQuiz(params, id) {
-    //add inlinee code
-    H5PIntegration.editor.wysiwygButtons = ['inlineCode', 'codeSnippet'];
     var self = this;
 
     self.classPrefix = 'h5p-personality-quiz-';
