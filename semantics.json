@@ -132,8 +132,27 @@
                     "name": "description",
                     "type": "text",
                     "label": "Description",
-                    "maxLength": 450,
-                    "widget": "textarea"
+                    "importance": "medium",
+                    "entity": "description",
+                    "widget": "html",
+                    "enterMode": "p",
+                    "options": [
+                        "H5P.AdvancedText 1.1"
+                    ],
+                    "tags": [
+                        "strong",
+                        "em",
+                        "del",
+                        "a",
+                        "ul",
+                        "ol",
+                        "h2",
+                        "h3",
+                        "hr",
+                        "pre",
+                        "code",
+                        "inlineCode"
+                    ]
                 },
                 {
                     "name": "image",

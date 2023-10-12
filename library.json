@@ -4,12 +4,19 @@
   "description": "Create a personality quiz and test which Game of Thrones or Hogwarts House your friends belong in.",
   "majorVersion": 1,
   "minorVersion": 0,
-  "patchVersion": 7,
+  "patchVersion": 11,
   "runnable": 1,
   "author": "Lumenia AS",
   "license": "MIT",
   "embedTypes": [
     "iframe"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontAwesome",
+      "majorVersion": 4,
+      "minorVersion": 5
+    }
   ],
   "preloadedJs": [
     {
@@ -27,6 +34,11 @@
   "editorDependencies": [
     {
       "machineName": "H5PEditor.ColorSelector",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
+      "machineName": "H5PEditor.ShowWhen",
       "majorVersion": 1,
       "minorVersion": 0
     }
